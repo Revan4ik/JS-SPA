@@ -7,7 +7,7 @@ import Map from "../../components/Map";
 const ProductPage = () => {
   return `
     <div>
-      ${Switch(true)}
+      ${Switch(true, 'Каталог')}
       ${Product()}
       ${Catalog()}
       ${Question()}

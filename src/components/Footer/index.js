@@ -16,11 +16,12 @@ const Footer = () => {
             <p class="footer-txt footer-txt__copy">© 2021 Все права защищены</p>
           </div>
           <div class="footer-middle">
-            ${Menu(
-              "menu-list-second",
-              "menu-list-second__item",
-              "menu-list-second__item-link"
-            )}
+            <nav>
+            <ul class ="menu-list-second">
+            <li class="menu-list-second__item"><a class="menu-list-second__item-link">О продукте</li>
+            <li class="menu-list-second__item"><a class="menu-list-second__item-link">Отзывы</li>
+            <li class="menu-list-second__item"><a class="menu-list-second__item-link">Доставка и оплата</li>
+            <li class="menu-list-second__item"><a class="menu-list-second__item-link">Контакты</li>
           </div>
           <div class="footer-right">
               <ul class="contact-list">
