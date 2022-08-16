@@ -1,0 +1,109 @@
+*, html, body{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+li {
+  list-style-type: none;
+}
+
+input, button, select {
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+}
+
+.flex-beetwen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-column--center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt {
+  &-main {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  &--bold {
+    font-weight: 600;
+  }
+
+  &--dark {
+    color: $blue-dark2;
+  }
+
+  &--white {
+    color: $white;
+  }
+}
+
+.title {
+  &-h1 {
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 65px;
+  }
+
+  &-h2 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 53px;
+  }
+
+  &-h3 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 31px;
+  }
+
+  &-h4 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  &-h5 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  &-h6 {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 23px;
+  }
+}
+
+.hoverable {
+  display: none;
+}

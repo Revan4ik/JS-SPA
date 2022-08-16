@@ -1,0 +1,25 @@
+
+header{
+  padding: 10px;
+  div{
+    display: flex;
+    max-width: 1172px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  ul{
+    display: flex;
+    a{
+      display: block;
+      padding: 5px;
+      color: #fff;
+    }
+  }
+}
+div .mylogo{
+  width: 184px;
+  min-height: 800px;
+  outline: none;
+  background-image: url("../../../img/image48.png");
+  border: none;
+}

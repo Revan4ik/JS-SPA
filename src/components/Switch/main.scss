@@ -1,0 +1,19 @@
+@import "../Switch/Switch-line/main.scss";
+
+.switch {
+  margin: 28px 0;
+  &-wrap {
+    display: flex;
+  }
+
+  &-link {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: $gray-dark;
+  }
+
+  .active {
+    color: $gray-light6;
+  }
+}
