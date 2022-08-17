@@ -1,4 +1,4 @@
-import store from "../../../store.json";
+import vault from "../../../vault.json";
 import Link from "../Link";
 const Menu = (classList, classItem, classLink) => {
   const renderItemMenu = (elem) => {
@@ -10,7 +10,7 @@ const Menu = (classList, classItem, classLink) => {
     
       <ul class="${classList}">
       ${Link("link-product menu-list__item-link txt--dark txt-main", "/product", "О продукте")}
-        ${store.menu.map(renderItemMenu).join("")}
+        ${vault.menu.map(renderItemMenu).join("")}
       </ul>
     </nav>
   `;

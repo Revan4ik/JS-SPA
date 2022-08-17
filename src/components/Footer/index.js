@@ -1,6 +1,6 @@
 import Menu from "../Menu";
 import Link from "../Link";
-import store from "../../../store.json";
+import vault from "../../../vault.json";
 import logo from "../../assets/img/logo.png";
 
 const Footer = () => {
@@ -10,7 +10,7 @@ const Footer = () => {
         <div class="footer-wrap">
           <div class="footer-left">
             <a class="logo" href="./">
-              <img class="logo-img" src="${logo}" alt="logo-store">
+              <img class="logo-img" src="${logo}" alt="logo-vault">
             </a>
             <p class="footer-txt footer-txt__private">Политика конфиденциальности</p>
             <p class="footer-txt footer-txt__copy">© 2021 Все права защищены</p>
@@ -29,21 +29,21 @@ const Footer = () => {
                   ${Link(
                     "contact-list__item-link contact-list__item-info contact-list__item-info--phone",
                     "tel:+380932210675",
-                    `${store.phone}`
+                    `${vault.phone}`
                   )}
                 </li>
                 <li class="contact-list__item">
                   ${Link(
                     "contact-list__item-link contact-list__item-info contact-list__item-info--email",
                     "https://goo.gl/maps/LmgcjBbRqc1kE4Yw5",
-                    `${store.email}`
+                    `${vault.email}`
                   )}
                 </li>
                 <li class="contact-list__item">
                   ${Link(
                     "contact-list__item-link contact-list__item-info contact-list__item-info--address",
                     "mailto:zakaz@kresla-samurai.com",
-                    `${store.address}`
+                    `${vault.address}`
                   )}
                 </li>
               </ul>
